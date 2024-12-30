@@ -11,12 +11,8 @@ Welcome to the **Car Sales Prediction Project**! 🚀 This project aims to predi
 ├── 📁 data/              # Dataset directory
 ├── 📁 reserch/            # Trained models
 ├── 📁 templates/         # html pages for Flask
-├── 📁 src/               # Source code for ML pipeline
-│   ├── dbfeeder.py       # Data ingestion & preprocessing
-│   ├── train.py          # Model training (Linear, Ridge, Lasso, ElasticNet)
-│   ├── inference.py      # Inference and prediction
-│   └── api.py            # FastAPI integration
-├── 📁 reports/           # Model performance reports
+└── app.py                # Flask app
+└── Fastapi_app.py        # creating a new fastapi with streamlit 
 └── README.md             # You're here!
 ```
 
@@ -77,14 +73,4 @@ pip install -r request.txt
 
 ## 📜 License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-## 🤝 Contributing
-Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
-
----
-
-## 📧 Contact
-For questions or collaboration, reach out at [your-email@example.com](mailto:your-email@example.com).
 
