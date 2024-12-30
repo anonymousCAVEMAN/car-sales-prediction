@@ -6,3 +6,5 @@ Flask
 matplotlib
 seaborn
 statsmodels
+fastapi
+streamlitpip
